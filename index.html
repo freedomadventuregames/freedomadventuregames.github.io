@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Freedom Adventure · jeu de rôle médiéval pour Android</title>
+<meta name="description" content="Chevalier, mage ou rôdeur : bâtissez votre armée, forgez votre équipement et repoussez le Roi Démon puis les morts-vivants de la Crypte. Jeu gratuit pour Android.">
+<link rel="icon" href="images/favicon.png">
+<style>
+ :root{--nuit:#15131c;--pierre:#221f2b;--trait:#3d3749;--parchemin:#efe3c8;--doux:#b3a68c;--or:#e2b04a;--or-sombre:#8a6a22;color-scheme:dark}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--nuit);color:var(--parchemin);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+ a{color:var(--or)}
+ .wrap{max-width:980px;margin:0 auto;padding:0 16px}
+ header{background:linear-gradient(180deg,#1d1a27 0%,var(--nuit) 100%);border-bottom:1px solid var(--trait)}
+ .hero{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center;padding:48px 0 40px}
+ .hero img{width:128px;height:128px;border-radius:28px;box-shadow:0 8px 30px #0008}
+ h1{font:700 clamp(36px,7vw,58px)/1.05 Georgia,"Times New Roman",serif;font-variant:small-caps;margin:0;color:var(--or);letter-spacing:.5px}
+ .tag{font-size:20px;color:var(--parchemin);margin:10px 0 18px;max-width:40ch}
+ .cta{display:inline-block;padding:10px 20px;border-radius:10px;border:1px solid var(--or-sombre);background:#2b2433;color:var(--parchemin);font-weight:700;text-decoration:none}
+ .cta small{display:block;font-weight:400;color:var(--doux);font-size:13px}
+ .caps{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(180px,1fr);gap:14px;overflow-x:auto;padding:32px 0 8px;scroll-snap-type:x mandatory}
+ .caps img{width:100%;border-radius:14px;border:1px solid var(--trait);scroll-snap-align:start;aspect-ratio:9/16;object-fit:cover}
+ h2{font:700 28px/1.15 Georgia,"Times New Roman",serif;font-variant:small-caps;color:var(--or);margin:40px 0 12px}
+ .feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:0;padding:0;list-style:none}
+ .feats li{background:var(--pierre);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+ .feats b{display:block;color:var(--or);font-size:18px;margin-bottom:2px}
+ .contact{background:var(--pierre);border:1px solid var(--trait);border-radius:12px;padding:16px 18px;margin-top:8px}
+ footer{margin-top:48px;border-top:1px solid var(--trait);padding:20px 0 40px;color:var(--doux);font-size:15px}
+ footer nav{display:flex;flex-wrap:wrap;gap:6px 18px;margin-bottom:6px}
+ @media (max-width:560px){.hero{grid-template-columns:1fr;text-align:center;justify-items:center;padding:32px 0}.hero img{width:104px;height:104px}.tag{margin-inline:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap hero">
+ <img src="images/icone.png" alt="Icône de Freedom Adventure : un chevalier en armure">
+ <div>
+  <h1>Freedom Adventure</h1>
+  <p class="tag">Chevalier, mage ou rôdeur : bâtissez votre armée, forgez votre légende et repoussez le Roi Démon.</p>
+  <span class="cta">Bientôt sur Google Play<small>Jeu gratuit pour Android, avec achats intégrés facultatifs</small></span>
+ </div>
+</div></header>
+
+<main class="wrap">
+ <div class="caps" aria-label="Captures d'écran du jeu">
+  <img src="images/capture-1.jpg" alt="Combat dans le Grand Nord : le héros et son armée face aux monstres" loading="lazy">
+  <img src="images/capture-2.jpg" alt="L'Élémentaire de givre, gardien de la Forêt de cristal" loading="lazy">
+  <img src="images/capture-3.jpg" alt="La carte du monde de Valoria" loading="lazy">
+  <img src="images/capture-4.jpg" alt="La formation de combat de l'armée" loading="lazy">
+  <img src="images/capture-5.jpg" alt="Les héros à débloquer" loading="lazy">
+  <img src="images/capture-6.jpg" alt="Le château, la demeure du héros" loading="lazy">
+  <img src="images/capture-7.jpg" alt="Le village des héros" loading="lazy">
+ </div>
+
+ <h2>Le jeu</h2>
+ <ul class="feats">
+  <li><b>Des combats en 2D</b>Frappez, lancez vos sorts au bon moment et laissez votre armée se battre à vos côtés.</li>
+  <li><b>Deux campagnes</b>Reconquérez Haute-Garde face au Roi Démon, puis affrontez les morts-vivants de la Crypte. Trois difficultés chacune.</li>
+  <li><b>Une armée qui grandit</b>Écuyers, arbalétriers, chevaliers, moines, mages de bataille… leur équipement évolue avec leur rang.</li>
+  <li><b>Sept héros, une aventure</b>Chevalier, mage, rôdeur… passez de l'un à l'autre quand vous voulez et entraînez-les tous : la progression est commune.</li>
+  <li><b>L'armurerie</b>Seize rangs d'équipement, du novice au titanesque, qui changent l'apparence de votre héros.</li>
+  <li><b>Votre demeure</b>De la cabane à la citadelle : agrandissez-la, aménagez-la et entrez la visiter.</li>
+ </ul>
+
+ <h2>Contact</h2>
+ <div class="contact">
+  <p style="margin:0">Une question, un bug, une idée ? Le plus rapide est le bouton <b>Signaler un bug</b> dans les réglages du jeu. Vous pouvez aussi écrire à <a href="mailto:freedomadventuregames@gmail.com">freedomadventuregames@gmail.com</a>.</p>
+ </div>
+</main>
+
+<footer><div class="wrap">
+ <nav><a href="confidentialite.html">Politique de confidentialité</a><a href="mentions-legales.html">Mentions légales</a><a href="mailto:freedomadventuregames@gmail.com">Contact</a></nav>
+ Freedom Adventure · Damien Benet, entrepreneur individuel
+</div></footer>
+</body>
+</html>

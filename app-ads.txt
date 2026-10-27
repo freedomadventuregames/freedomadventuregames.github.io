@@ -1,0 +1,3 @@
+# Freedom Adventure — fichier app-ads.txt (vendeurs autorisés de publicités)
+# Compte AdMob de Freedom Games (numéro d'éditeur pub-5331460392158776).
+google.com, pub-5331460392158776, DIRECT, f08c47fec0942fa0
